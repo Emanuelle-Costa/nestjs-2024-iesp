@@ -1,0 +1,24 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .task-done {
+    text-decoration: line-through;
+  }
+  .task-item {
+    margin-bottom: 20px;
+  }
+  .edit-form {
+    display: none;
+    margin-top: 10px;
+  }
+  .edit-form input,
+  .edit-form textarea {
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+  }
+  .edit-form button {
+    width: calc(100% - 20px);
+  }
+  

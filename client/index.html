@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Application NestJS</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="root">
+    <h2>Authentication service</h2>
+    <form action="" id="login">
+      <input type="text" placeholder="Username" name="username" />
+      <input type="password" placeholder="Password" name="password" />
+      <button type="submit">Login</button>
+      <button type="button" id="signup">Signup</button>
+    </form>
+    <div class="error-message" id="error-message" style="display: none"></div>
+  </div>
+  <br>
+  <div class="root">
+    <h2>To-do list service</h2>
+    <form action="" id="task">
+      <input type="text" placeholder="Add Task" />
+      <button type="submit">Create</button>
+    </form>
+    <ul id="task-list"></ul>
+  </div>
+  <script src="auth.js"></script>
+  <script src="tasks.js"></script>
+</body>
+</html>
